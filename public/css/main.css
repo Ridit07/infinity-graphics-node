@@ -1,0 +1,1280 @@
+
+    @font-face {
+
+    	font-family: LetsBakeMuffins;
+ 	src: url(muffs.ttf);
+
+    }
+
+    @font-face {
+
+    	font-family: MakeMagicHappen;
+
+    	src: url(mmh.ttf);
+
+    }
+
+    @font-face {
+
+    	font-family: Quesatbolditalicdemo;
+
+    	src: url(Quesat.otf);
+
+    }
+
+ 
+
+    @font-face {
+
+    	font-family: belladapersonallicense;
+
+    	src: url(bpl.ttf);
+
+    }
+
+    @font-face {
+
+    	font-family: JMH SALOON;
+
+    	src: url(Jmhsaloon.ttf);
+
+    }
+
+    @font-face {
+
+    	font-family: Hot and Black Tea;
+
+    	src: url(Hab.ttf);
+	
+    }
+
+    body {
+
+    	background-color: black;
+
+    	padding: 0;
+
+    	width: 100%;
+
+    }
+
+    ::-webkit-scrollbar {
+
+    	display: none;
+
+    }
+
+    /*========= main divs ==============*/
+
+    #div1 {
+
+    	background: url(../img/abc.gif);
+
+    	position: absolute;
+
+    	top: 0;
+
+    	width: 100%;
+
+    	height: 100vh;
+
+
+    	background-position: center;
+
+    	background-size: cover;
+
+    	animation: bgchange;
+
+    	animation-duration: 8s;
+    	
+
+    
+    	
+
+    	
+
+    
+    }
+#ridit  {
+background-color: #0d0d0d;
+height: 100vh;
+width: 100%;
+top:1060vh;
+
+
+
+    	background-position: center;
+
+    	background-size: cover;
+position: absolute;
+
+
+}
+
+    @keyframes bgchange {
+
+    	0% {
+
+    		opacity: 0;
+
+    	}
+
+    	100% {
+
+    		opacity: 1;
+
+    	}
+
+    }
+
+    #about {
+
+background-color: #1a1a1a;
+
+position: absolute;
+
+top: 100vh;
+
+width: 100%;
+
+height: 200vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+
+#about1 {
+
+background-color: #1a1a1a;
+
+position: absolute;
+
+top: 30vh;
+
+width: 100%;
+
+height: 200vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+
+    #comingsoon {
+
+background-color: #0d0d0d;
+
+position: absolute;
+
+top: 300vh;
+
+width: 100%;
+
+height: 180vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+ #catalog {
+
+background: black;
+
+position: absolute;
+
+top: 480vh;
+
+width: 100%;
+
+height: 120vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+ #artist {
+
+background-color: #0d0d0d;
+
+position: absolute;
+
+top: 600vh;
+
+width: 100%;
+
+height: 120vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+
+    #skyintellex {
+
+background-color: #1a1a1a;
+
+position: absolute;
+
+top: 720vh;
+
+width: 100%;
+
+height: 120vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+ 
+
+
+    #railintellex {
+
+background-color: #0d0d0d;
+
+position: absolute;
+
+top: 830vh;
+
+width: 100%;
+
+height: 130vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+
+    #feedback {
+
+background-color: #1a1a1a;
+
+position: absolute;
+
+top: 960vh;
+
+width: 100%;
+
+height: 100vh;
+
+background-position: center;
+
+background-size: cover;
+
+}
+
+    header {
+
+    	background-color: rgba(0, 0, 0, 0.6);
+
+    	height: 20vh;
+
+    	width: 100%;
+
+    	position: fixed;
+
+    	top: 0;
+
+    	z-index: 200;
+
+    	animation: bgchange;
+
+    	animation-duration: 8s;
+
+    }
+
+    /*====================== sub divs and paras ============*/
+
+    #box {
+
+margin-top: 10vh;
+
+}
+
+    #ai {
+
+    	position: absolute;
+    	left: 10vw;
+    	top: 0vh;
+    	font-family: LetsBakeMuffins;
+ 	font-size: 7vh;
+
+    	color: orange;
+
+    	width: 40vw;
+
+    }
+
+    #btt1 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 165vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+	
+	#btt2 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 100vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+	
+	#btt3 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 110vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+#btt10 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 70vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+  #btt11 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 185vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+ #btt12 {
+
+    	position: absolute;
+
+    	color: black;
+
+    	background-color: white;
+
+    	font-size: 3vh;
+
+    	border-radius: 0.5vh;
+
+    	right: 10vw;
+
+    	top: 90vh;
+
+    	font-family: MakeMagicHappen;
+
+    	height: 4vh;
+
+    	width: 8vw;
+
+    	padding: 1vh;
+
+    	cursor: pointer;
+
+    }
+     #btt13 {
+
+        position: absolute;
+
+        color: black;
+
+        background-color: white;
+
+        font-size: 3vh;
+
+        border-radius: 0.5vh;
+
+        right: 10vw;
+
+        top: 110vh;
+
+        font-family: MakeMagicHappen;
+
+        height: 4vh;
+
+        width: 8vw;
+
+        padding: 1vh;
+
+        cursor: pointer;
+
+    }
+     #btt14 {
+
+        position: absolute;
+
+        color: black;
+
+        background-color: white;
+
+        font-size: 3vh;
+
+        border-radius: 0.5vh;
+
+        right: 10vw;
+
+        top: 710vh;
+
+        font-family: MakeMagicHappen;
+
+        height: 4vh;
+
+        width: 8vw;
+
+        padding: 1vh;
+
+        cursor: pointer;
+
+    }
+
+    #slog {
+
+    	position: absolute;
+
+    	top: 40vh;
+
+    	right: 10vw;
+
+    	width: 45vw;
+
+    	padding: 5vh;
+
+    	font-family: agency fb;
+
+    	font-size: 5vh;
+
+    	color: white;
+
+    }
+
+    #quote {
+
+    	font-size: 5vh;
+
+    	width: 45vw;
+
+    	font-family: Billyforgesdemo;
+
+    	color: white;
+
+    	padding: 1vh;
+
+    	margin-top: 30vh;
+
+    	padding: 2vh;
+
+    	background-color: transparent;
+
+    	animation-name: visible;
+
+    	border: ridge;
+
+    	border-color: black;
+
+    	animation-duration: 2s;
+
+    }
+
+    @keyframes visible {
+
+    	0% {
+
+    		opacity: 0;
+
+    		width: 0;
+
+    		border: none;
+
+    		border-color: white;
+
+    		color: transparent;
+
+    	}
+
+    	75% {
+
+    		color: transparent;
+
+    	}
+
+    	100% {
+
+    		opacity: 1;
+
+    		width: 45vw;
+
+    		border: ridge;
+
+    		border-color: black;
+
+    		color: white;
+
+    	}
+
+    }
+
+    #top1 {
+
+    	padding: 5vh;
+
+    	font-family: MakeMagicHappen;
+
+    	color: white;
+
+    	font-size: 7vh;
+
+    }
+
+    #aidef {
+
+    	padding-left: 8vh;
+
+    	padding-bottom: 10vh;
+
+    	width: 50vw;
+
+    	color: white;
+
+    	font-family: amp;
+
+    	font-size: 5vh;
+
+    }
+
+    #tame {
+
+    	color: white;
+
+    	font-family: Quesatbolditalicdemo;
+
+    	font-size: 8vh;
+
+    	position: absolute;
+
+    	top: 30vh;
+
+    	right: 25vw;
+
+    }
+
+    /*================ images & videos===========================*/
+
+    #logo {
+
+    	position: absolute;
+
+    	left: 5vw;
+
+    	top: 6vh;
+
+    	height: 10vh;
+
+    }
+
+    #arrow {
+
+    	height: 15vh;
+
+    	position: absolute;
+
+    	top: 80vh;
+
+    	z-index: 100;
+
+    	transition: 0.5s;
+
+    	animation: updow 2s infinite;
+
+    }
+
+    @keyframes updow {
+
+    	0% {
+
+    		top: 80vh;
+
+    	}
+
+    	50% {
+
+    		top: 82vh;
+
+    	}
+
+    	100% {
+
+    		top: 80vh;
+
+    	}
+
+    }
+
+    #quote img:hover {
+
+    	height: 20vh;
+
+    	margin-left: -2.5vh;
+
+    }
+
+    #skyin {
+
+    	position: absolute;
+
+    	display: block;
+
+    	left: 6vw;
+
+    	top: 25vh;
+
+    	height: 50vh;
+
+    	transition: 0.4s;
+
+    }
+
+    #about img:hover {
+
+    	height: 60vh;
+
+    	z-index: 100;
+
+    }
+	
+#about1 img:hover {
+	position:relative;
+    	height: 45vh;
+	width:45vh;
+	transition:0.5s;
+    	z-index: 100;
+
+    }
+    #railin {
+
+    	transition: 2s;
+
+    	position: absolute;
+
+    	left: 15vw;
+
+    	top: 35vh;
+
+    	height: 40vh;
+
+    }
+
+    #vid {
+
+    	position: absolute;
+
+    	top: 67vh;
+
+    	left: 40vw;
+
+    	z-index: 300;
+
+    	;
+
+    	height: 30vh;
+
+    	width: 30vw;
+
+    }
+
+    #vid1 {
+
+    	position: absolute;
+
+    	top: 67vh;
+
+    	left: 5vw;
+
+    	z-index: 300;
+
+    	;
+
+    	height: 30vh;
+
+    	width: 30vw;
+
+    }
+#ridit2{
+position:absolute;	
+left:2vw;
+	top:50vh;
+border:ridge;
+
+}
+
+    #logo1 {}
+
+    /*================ form ============================*/
+
+    #newsletter {
+
+    	padding-bottom: 10vh;
+
+    }
+
+    #aboutnl {
+
+    	font-family: belladapersonallicense;
+
+    	color: #737373;
+
+    	font-size: 3vh;
+
+    }
+
+    #subscribe {
+
+    	position: absolute;
+
+    	width: 20vw;
+
+    	top: 40vh;
+
+    	left: 10vw;
+
+    	border-right: ridge;
+
+    }
+
+    #sub {
+
+    	color: white;
+
+    	font-family: JMH SALOON;
+
+    	font-size: 7vh;
+
+    }
+
+    #newform {
+
+    	color: white;
+
+
+    }
+
+    input[type=text],
+
+    input[type=tel],
+
+    input[type=email],
+
+    input[type=submit],
+
+    #country {
+
+    	width: 40vw;
+
+    	height: 8vh;
+
+    	padding: 1.5vh 2vh;
+
+    	margin: 1vh 0;
+
+    	box-sizing: border-box;
+
+    	border-radius: 1vh;
+
+    	border-color: orange;
+
+    	font-size: 2vh;
+
+    }
+
+    input[type=checkbox] {
+
+    	width: 5vw;
+
+    	height: 5vh;
+
+    	box-sizing: border-box;
+
+    	border-radius: 1vh;
+
+    	border-color: orange;
+
+    	font-size: 2vh;
+
+    }
+
+    input[type=submit] {
+
+    	background-color: #4CAF50;
+
+    	color: white;
+
+    	padding: 1vh 2vw;
+
+    	border: none;
+
+    	border-radius: 1vh;
+
+    }
+
+    input[type=submit] hover {
+
+    	background-color: black;
+
+    }
+
+    #pname {
+
+    	font-size: 3vh;
+
+    	font-family: calibri;
+
+    	margin-right: 7vw;
+
+    }
+
+    /*Footer*/
+
+    footer {
+
+display: none;
+
+width: 100%;
+
+height: 45vh;
+
+margin-top: 1150vh;
+
+background-color: #182c49;
+
+color: white;
+
+font-family: MakeMagicHappen;
+
+font-size: 4vh;
+
+}
+
+    #aisehi1 {
+
+    	background-color: #0f1d31;
+
+    	width: 60%;
+
+    	height: 10vh;
+
+    	position: absolute;
+
+    	margin-top: 0;
+
+    }
+
+    #aisehi2 {
+
+    	background-color: #14243d;
+
+    	width: 40%;
+
+    	height: 10vh;
+
+    	position: absolute;
+
+    	margin-top: 0;
+
+    	margin-left: 60%;
+
+    }
+
+    footer a {
+
+    	text-decoration: none;
+
+    	color: #ff2f87;
+
+    }
+
+    #contactus {
+
+    	width: 30vw;
+
+    	height: 20vh;
+
+    	position: absolute;
+
+    	margin-left: 65vw;
+
+    	margin-top: 15vh;
+
+    }
+
+    #logo1 {
+
+    	height: 5vh;
+
+    	width: 5vh;
+
+    	padding: 1vh;
+
+    }
+
+    #logo1 hover {
+
+    	height: 7vh;
+
+    	width: 7vh;
+
+    }
+
+    #copy {
+
+    	position: absolute;
+
+    	margin-top: 25vh;
+
+    	margin-left: 10vw;
+
+    }
+
+    /*===========bda hone wala===========*/
+
+    #al {
+
+    	height: 5vh;
+
+    	width: 5vh;
+
+    	animation-name: qbig;
+
+    	animation-direction: alternate;
+
+    	animation-duration: 4s;
+
+    	animation-iteration-count: infinite;
+
+    }
+
+    @keyframes qbig {
+
+    	0% {
+
+    		transform: rotate(0deg);
+
+    	}
+
+    	25% {
+
+    		transform: rotate(45deg);
+
+    	}
+
+    	50% {
+
+    		transform: rotate(0deg);
+
+    	}
+
+    	100% {
+
+    		transform: rotate(-45deg);
+
+    	}
+
+    }
+
+    #bda1 {
+
+    	height: 5vh;
+
+    	width: 5vh;
+
+    	position: absolute;
+
+    	right: 0;
+
+    	top: 30vh;
+
+    	z-index: 6000;
+
+    }
+
+    #bda {
+
+    	visibility: hidden;
+
+    	width: 0vw;
+
+    }
+
+    #bda1:hover #bda {
+
+    	width: 100vw;
+
+    	margin-left: -100vw;
+
+    	visibility: visible;
+
+    }
+
+    #web {
+
+    	height: 80vh;
+
+    	width: 0vw;
+
+    	margin-top: -15vh;
+
+    	transition: 0.5s;
+
+    }
+
+    #bda1:hover #web {
+
+    	width: 100vw;
+
+    }
+
+    alternate;
+
+    animation-duration:4s;
+
+    animation-iteration-count:infinite;
+
+   }
+
+   @keyframes qbig {
+
+   	0% {
+
+   		transform: rotate(0deg);
+
+   	}
+
+   	25% {
+
+   		transform: rotate(45deg);
+
+   	}
+
+   	50% {
+
+   		transform: rotate(0deg);
+
+   	}
+
+   	100% {
+
+   		transform: rotate(-45deg);
+
+   	}
+
+   }
+
+   #bda1 {
+
+   	height: 5vh;
+
+   	width: 5vh;
+
+   	position: absolute;
+
+   	right: 0;
+
+   	top: 30vh;
+
+   	z-index: 6000;
+
+   }
+
+   #bda {
+
+   	visibility: hidden;
+
+   	width: 0vw;
+
+   }
+
+   #bda1:hover #bda {
+
+   	width: 100vw;
+
+   	margin-left: -100vw;
+
+   	visibility: visible;
+
+   }
+
+   #web {
+
+   	height: 80vh;
+
+   	width: 0vw;
+
+   	margin-top: -15vh;
+
+   	transition: 0.5s;
+
+   }
+
+   #bda1:hover #web {
+
+   	width: 100vw;
+
+   }
+
+
+   #img11{
+    position: absolute;
+top:63vh;
+
+
+}
+
+.container{
+    position: absolute;
+    height: 250px;
+
+}
+
+.container img{
+position: absolute;
+
+
+}
+
+
+.image {
+  display: block;
+
+}
+
+.overlay {
+  position: absolute;
+  
+ 
+  height: 0px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay  {
+  opacity: 1;
+   height: 100px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
